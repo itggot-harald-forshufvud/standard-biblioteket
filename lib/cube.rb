@@ -7,7 +7,7 @@
 #   cube(5)
 #   # => 125
 #
-# Returns an Integer raised to 3
+# Returns an Integer to the power of 3
 def cube(num)
     return num * num * num
 end
