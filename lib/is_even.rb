@@ -6,11 +6,11 @@
 #
 # Example
 # 
-#   even(6)
+#   is_even(6)
 #    # => true
 #
 #Returns true/false depending if the number is even or not
-def even(num)
+def is_even(num)
     output = false
     if number % 2 == 0
         output = true
