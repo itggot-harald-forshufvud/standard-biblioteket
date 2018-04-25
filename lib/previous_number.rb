@@ -9,5 +9,5 @@
 #
 # Return the previous number of chosen Integer
 def previous_number(num)
-return num - 1
+    return num - 1
 end
