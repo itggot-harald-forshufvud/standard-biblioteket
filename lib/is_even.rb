@@ -12,8 +12,8 @@
 #Returns true/false depending if the number is even or not
 def is_even(num)
     output = false
-    if number % 2 == 0
+    if num % 2 == 0
         output = true
     end
     return output
-end   
+end
