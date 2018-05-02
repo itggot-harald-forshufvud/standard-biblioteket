@@ -24,7 +24,3 @@ def max_of_four(num1, num2, num3, num4)
     end
     return max
 end
-
-p max_of_four(1, 2, 3, 4)
-p max_of_four(100, 2, 256, 1)
-p max_of_four(1337, -1337, 0, 1338)
