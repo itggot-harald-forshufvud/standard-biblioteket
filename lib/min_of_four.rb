@@ -1,4 +1,4 @@
-# Public: Compares two Integers and returns the smallest one
+# Public: Compares four Integers and returns the smallest one
 #
 # num1 - The Integer which is going to be compared
 # num2 - The Integer which is also going to be compare
