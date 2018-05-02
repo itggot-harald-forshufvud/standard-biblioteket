@@ -1,4 +1,4 @@
-# Public: Takes an Integer and checkes if it is between two other Integers
+# Public: Takes an Integer and checkes if it is strict between two other Integers
 #
 # num - The Integer which is to be checked
 # min - The Integer with the lowest value of our chosen span
@@ -9,9 +9,9 @@
 #   bewtween(1, 2, 3)
 #   # => false
 #
-# Returns True or False depending on if the Integer is between the maximum and minimun value
-def between(num, min, max)
-    if min <= num && max >= num
+# Returns True or False depending on if the Integer is strict between the maximum and minimun value
+def between_strict(num, min, max)
+    if min < num && max > num
         return true
     else 
         return false
