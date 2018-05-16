@@ -24,8 +24,3 @@ def min_of_three(num1, num2, num3, num4)
     end
     return output
 end
-
-
-p min_of_three(1, 2, 3, 4)
-p min_of_three(100, 2, 256, 1)
-p min_of_three(1337, -1337, 0, -1338)
